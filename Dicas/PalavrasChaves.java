@@ -16,7 +16,7 @@ public abstract class PalavrasChaves {
     }
 
     // Indica que esse método só pode acessar atributos de classe e não pode ser
-    // sobrescrito
+    // sobrescrito. Pode ser acessado sem criar um objeto da classe.
     static int procuto(int a, int b) {
         return a * b;
     }
